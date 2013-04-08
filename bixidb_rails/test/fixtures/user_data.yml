@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  deviceid: MyString
+  time: MyString
+  location: MyString
+
+two:
+  deviceid: MyString
+  time: MyString
+  location: MyString
