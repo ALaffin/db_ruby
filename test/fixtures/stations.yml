@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  stationId: MyString
+  rank: MyString
+  upordown: MyString
+
+two:
+  stationId: MyString
+  rank: MyString
+  upordown: MyString

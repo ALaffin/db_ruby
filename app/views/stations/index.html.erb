@@ -1,0 +1,27 @@
+<h1>Listing stations</h1>
+
+<table>
+  <tr>
+    <th>Stationid</th>
+    <th>Rank</th>
+    <th>Upordown</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @stations.each do |station| %>
+  <tr>
+    <td><%= station.stationId %></td>
+    <td><%= station.rank %></td>
+    <td><%= station.upordown %></td>
+    <td><%= link_to 'Show', station %></td>
+    <td><%= link_to 'Edit', edit_station_path(station) %></td>
+    <td><%= link_to 'Destroy', station, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Station', new_station_path %>

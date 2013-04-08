@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Deviceid:</b>
+  <%= @datum.deviceId %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @datum.location %>
+</p>
+
+<p>
+  <b>Time:</b>
+  <%= @datum.time %>
+</p>
+
+
+<%= link_to 'Edit', edit_datum_path(@datum) %> |
+<%= link_to 'Back', data_path %>

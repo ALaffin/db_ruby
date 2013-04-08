@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Stationid:</b>
+  <%= @station.stationId %>
+</p>
+
+<p>
+  <b>Rank:</b>
+  <%= @station.rank %>
+</p>
+
+<p>
+  <b>Upordown:</b>
+  <%= @station.upordown %>
+</p>
+
+<%= link_to 'Edit', edit_station_path(@station) %> |
+<%= link_to 'Back', stations_path %>
